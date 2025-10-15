@@ -1,0 +1,78 @@
+# ==================== Python相关 ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==================== 虚拟环境 ====================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ==================== IDE和编辑器文件 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== 数据集和大文件 ====================
+# 忽略所有bag文件（RealSense录制文件）
+*.bag
+
+# 忽略大型数据文件夹
+data/raw/
+data/processed/  # 如果包含大文件的话
+datasets/
+videos/
+images/large/
+frames/
+records/
+
+# 但保留必要的目录结构（可选）
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ==================== 模型文件 ====================
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+weights/
+checkpoints/
+
+# ==================== 日志文件 ====================
+logs/
+*.log
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+
+# ==================== Jupyter Notebook ====================
+.ipynb_checkpoints
+
+# ==================== 配置文件中的敏感信息 ====================
+config/local.yaml
+config/secret.py
+*.key
+*.pem
