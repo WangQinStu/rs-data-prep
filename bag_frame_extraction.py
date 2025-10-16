@@ -5,9 +5,9 @@ import os
 from skimage.metrics import structural_similarity as ssim
 
 # ========== 配置参数 ==========
-file_name = "d435i_rgb_1015_155304"
-input_file_path = "/home/wangqin/Applications/project/records/"+file_name+ ".bag"  # .bag 文件路径
-output_dir = "./frames/"+file_name
+file_name = ".bag"
+input_file_path = "./records/" + file_name # .bag 文件路径
+output_dir = "./frames/" + file_name
 os.makedirs(output_dir, exist_ok=True)
 
 min_interval = 20        # 至少间隔多少帧保存一次
