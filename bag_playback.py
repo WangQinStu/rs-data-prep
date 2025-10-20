@@ -7,8 +7,8 @@ import time
 from collections import deque
 
 # ===== 用户配置 =====
-file_name = ".bag"
-input_file_path = "./records/" + file_name
+file_name = "405_1017_134311.bag"
+input_file_path = "./records/windows/" + file_name
 window_name = "RealSense Smooth Player"
 BUFFER_SIZE = 20  # 缓冲帧数量
 approx_duration_s = 5 * 60  # 约定总时长（秒）

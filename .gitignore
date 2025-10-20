@@ -47,7 +47,7 @@ videos/
 images/large/
 frames/
 records/
-
+keyframes/
 # 但保留必要的目录结构（可选）
 !data/raw/.gitkeep
 !data/processed/.gitkeep
