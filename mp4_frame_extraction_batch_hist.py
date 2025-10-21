@@ -3,7 +3,7 @@ import cv2
 
 
 show_scale = 0.7
-threshold = 0.8
+threshold = 0.9
 
 input_dir = './records/phone/videos'
 input_file = ''
